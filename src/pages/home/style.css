@@ -1,0 +1,85 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: brown;
+  padding-top: 100px;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap:30px;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: cadetblue;
+  max-width: 50%;
+  width: 400px;
+  margin-bottom: 20px;
+
+
+  & button {
+    border-radius: 30px;
+    background-color: yellow;
+    font-weight: bold;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+  }
+
+  & button:hover {
+    opacity: 0.8;
+  }
+
+  & input {
+    border: 1px solid orange;
+    border-radius: 30px;
+    height: 40px;
+    background-color: chartreuse;
+    font-size: 16px;
+    padding-left: 15px;
+
+    /* bordinha irritante */
+    outline: none; 
+    
+
+  }
+
+}
+
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  background-color: burlywood;
+  margin: 10px;
+  padding: 10px;
+  width: 400px;
+  border-radius: 10px;
+
+  & p {
+    color: #FFF;
+    font-weight: bold;
+
+    & span {
+      font-weight: normal;
+    }
+  }
+
+  & button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    
+    & img {
+      height: 20px;
+    }
+  }
+
+  & button:hover {
+    opacity: 0.5;
+  }
+
+
+}
